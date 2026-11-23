@@ -1,4 +1,4 @@
-# richardkemp-uk
+# Richard Kemp
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-richardkemp-uk is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://richardkemp.uk/
+Richard Kemp provides AI and automation consulting for small and mid-sized enterprises. With a background in financial services, he helps businesses identify automation opportunities, assess ROI, and implement custom solutions or recommend off‑the‑shelf tools. His services include free discovery calls, AI readiness assessments, and end‑to‑end implementation, all delivered vendor‑neutrally. He also develops open‑source projects such as Foci, an AI agent platform, and runs The Others marketplace for AI‑driven human matchmaking.
+
+**Areas:** AI · Automation · SME · Workflow · Implementation
+
+## Richard Kemp on APIs.io
+
+Everything profiled for Richard Kemp is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/richardkemp-uk/](https://apis.io/providers/richardkemp-uk/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Cal.com API v2](https://apis.io/apis/richardkemp-uk/calcom-api-v2/) — Cal.com scheduling API providing endpoints for events, bookings, and integrations.
+- [Richard Kemp API](https://apis.io/apis/richardkemp-uk/richardkemp-uk-api/) — Richard Kemp API as documented publicly: 38 operations. Contract generated from the documentation by API Evangelist (2026-11-23); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Richardkemp Uk Webhooks](https://apis.io/asyncapis/richardkemp-uk/richardkemp-uk-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1BookingsResponse](https://apis.io/schemas/richardkemp-uk/richardkemp-uk-get-v1-bookings-response/)
+- [GetV2BookingsResponse](https://apis.io/schemas/richardkemp-uk/richardkemp-uk-get-v2-bookings-response/)
+- [PatchV2OrganizationsOrgidCalendarInvitesRequest](https://apis.io/schemas/richardkemp-uk/richardkemp-uk-patch-v2-organizations-orgid-calendar-invites-request/)
+- [PostV1BookingsRequest](https://apis.io/schemas/richardkemp-uk/richardkemp-uk-post-v1-bookings-request/)
+- [PostV2BookingsRequest](https://apis.io/schemas/richardkemp-uk/richardkemp-uk-post-v2-bookings-request/)
+- [PostV2EventTypesRequest](https://apis.io/schemas/richardkemp-uk/richardkemp-uk-post-v2-event-types-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Richardkemp Uk Context](https://apis.io/jsonld/richardkemp-uk/richardkemp-uk-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Richard Kemp API Rules](https://apis.io/rules/richardkemp-uk/richardkemp-uk-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Richard Kemp Authentication](https://apis.io/security/richardkemp-uk/richardkemp-uk-authentication/)
+- [Richard Kemp Domain Security](https://apis.io/security/richardkemp-uk/richardkemp-uk-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://richardkemp.uk/)
+- [Documentation](https://developer.cal.com/)
+- [Getting started](https://cal.com/docs/agent-quickstart)
+- [API reference](https://cal.com/docs/llms.txt)
+
+## API Evangelist rating
+
+**Kin Score 37.5** — thin · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 11.9 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 28.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/richardkemp-uk/](https://apis.io/providers/richardkemp-uk/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Richard Kemp: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/richardkemp-uk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
